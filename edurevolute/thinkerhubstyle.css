@@ -1,0 +1,184 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #444;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Main Content Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+main img {
+  width: 100%;
+  height: 100%
+  object-fit: cover;
+  border-radius: 100px
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Motto Styles */
+
+.motto {
+  font-size: 18px;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* About Us Styles */
+
+.about-us {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Team Members Styles */
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: calc(33.33% - 20px);
+}
+
+.team-member h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* The revolution of education in zambia style */
+
+.the-revolution-of-education-in-zambia{
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.the-revolution-of-education-in-zambia h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .team-member {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
+  .team-member {
+    width: 100%;
+  }
+}
